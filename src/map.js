@@ -9,9 +9,8 @@ import { SceneWithSpinningBoxes } from './cube';
 export default function Map(){
 
     const [mapContainer, setMapcontainer] = useState(null)
-
     return <><GoogleMapsProvider
-        googleMapsAPIKey='AIzaSyBpnsYE8hNKnvG_H1mpBbrAN8y1n6uod1c'
+        googleMapsAPIKey ="AIzaSyBpnsYE8hNKnvG_H1mpBbrAN8y1n6uod1c"
         mapOptions={{zoom:12, center: {lat:43.68, lng:-79.43}} }
         mapContainer={mapContainer}
     >
